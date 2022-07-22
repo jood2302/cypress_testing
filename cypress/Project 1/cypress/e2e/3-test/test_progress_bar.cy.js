@@ -1,4 +1,4 @@
-describe('test click start', () => {
+describe('test progress bar', () => {
   it('passes', () => {
     cy.visit('http://uitestingplayground.com/progressbar')
     cy.get('#startButton').contains('Start').click()
