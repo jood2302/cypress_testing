@@ -19,5 +19,5 @@ describe('test dinamic table and check Chrome CPU', () => {
           })
         })
       })
-  })
+    })
 })
