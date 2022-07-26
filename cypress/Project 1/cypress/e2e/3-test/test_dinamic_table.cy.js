@@ -1,11 +1,6 @@
 describe('test dinamic table and check Chrome CPU', () => {
     it('passes', () => {
       cy.visit('http://uitestingplayground.com/dynamictable')
-      const test = "1" 
-      // cy.get('input[name="email"]')
-  // .invoke('val')
-  // .then(sometext => cy.log(sometext));
-
       cy.contains('span', 'Chrome')
       .parent()
       .within(() => {
