@@ -17,7 +17,7 @@ describe('test dinamic table and check Chrome CPU', () => {
             expect(expeced_result).to.eq(actual_result)
             cy.log('All fine. CPU for Chrome:' + actual_result)
           })
+        })
       })
-    })
   })
 })
