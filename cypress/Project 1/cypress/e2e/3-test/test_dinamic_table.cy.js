@@ -21,3 +21,5 @@ describe('test dinamic table and check Chrome CPU', () => {
       })
     })
 })
+
+/// add or change code for CPU -> Chrome
